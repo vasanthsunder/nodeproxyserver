@@ -1,0 +1,19 @@
+{
+  "name": "nodeproxy",
+  "version": "1.0.0",
+  "description": "Node API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "cors": "^2.7.1",
+    "express": "~4.0.0",
+    "http-proxy": "^1.13.2",
+    "mongoose": "~3.6.13",
+    "node-rest-client": "^1.8.0",
+    "request": "^2.72.0"
+  }
+}
